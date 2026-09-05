@@ -80,6 +80,7 @@ function packmateSyncPlugin(): Plugin {
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [
     packmateSyncPlugin(),
     react(),
