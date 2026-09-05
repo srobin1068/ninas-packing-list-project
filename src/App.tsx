@@ -17,9 +17,9 @@ import { syncService } from './services/syncService';
 import { cloudDb } from './services/cloudDb';
 import { Sparkles, Inbox } from 'lucide-react';
 
-const STORAGE_KEY_ITEMS = 'packmate_items_v9';
+const STORAGE_KEY_ITEMS = 'packmate_items_v10';
 const STORAGE_KEY_SETTINGS = 'packmate_settings_v2';
-const STORAGE_KEY_TRIPS = 'packmate_saved_trips_v1';
+const STORAGE_KEY_TRIPS = 'packmate_saved_trips_v2';
 
 const DEFAULT_PEOPLE: Person[] = [
   { id: 'nina', name: 'Nina' },
@@ -60,7 +60,7 @@ export function App() {
     } catch (e) {
       console.error(e);
     }
-    return STARTER_ITEMS.map((item) => ({ ...item, luggage: 'unassigned' }));
+    return STARTER_ITEMS.map((item) => (item.luggage ? item : { ...item, luggage: 'unassigned' }));
   });
 
   // Helper to normalize title key for deduplication (removes emojis, punctuation, and generic suffixes)
