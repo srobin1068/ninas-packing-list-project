@@ -16,10 +16,27 @@ const GIST_API_URL = `https://api.github.com/gists/${GIST_ID}`;
 class CloudDatabaseService {
   private syncListeners: Set<(state: CloudState) => void> = new Set();
   private lastContentKey: string = '';
+  private lastUpdatedAt: number = 0;
+  private lastLocalEditTime: number = 0;
   private pollInterval: any = null;
 
   constructor() {
+    this.initLastUpdatedAt();
     this.startPolling();
+  }
+
+  private initLastUpdatedAt() {
+    try {
+      const cached = localStorage.getItem(LOCAL_FAMILY_KEY);
+      if (cached) {
+        const parsed: CloudState = JSON.parse(cached);
+        if (parsed && parsed.updatedAt) {
+          this.lastUpdatedAt = parsed.updatedAt;
+        }
+      }
+    } catch (e) {
+      console.error(e);
+    }
   }
 
   private startPolling() {
@@ -33,6 +50,11 @@ class CloudDatabaseService {
 
   // Fetch full cloud state (items + saved trips repository)
   public async pullCloudState(): Promise<CloudState | null> {
+    // Safeguard: Do not pull/override if a local edit occurred within the last 6 seconds
+    if (Date.now() - this.lastLocalEditTime < 6000) {
+      return null;
+    }
+
     // 1. Try global cloud database (GitHub Gist API)
     try {
       const res = await fetch(GIST_API_URL, {
@@ -47,6 +69,12 @@ class CloudDatabaseService {
         if (contentStr) {
           const data: CloudState = JSON.parse(contentStr);
           if (data && data.items && Array.isArray(data.items)) {
+            // Timestamp validation: only accept cloud data if it is NEWER than local timestamp
+            const cloudTimestamp = data.updatedAt || 0;
+            if (cloudTimestamp <= this.lastUpdatedAt) {
+              return null;
+            }
+
             const contentKey = JSON.stringify({
               items: data.items,
               tripTitle: data.tripTitle,
@@ -56,6 +84,7 @@ class CloudDatabaseService {
 
             if (contentKey !== this.lastContentKey) {
               this.lastContentKey = contentKey;
+              this.lastUpdatedAt = cloudTimestamp;
               localStorage.setItem(LOCAL_FAMILY_KEY, JSON.stringify(data));
               this.notifyListeners(data);
               return data;
@@ -78,6 +107,11 @@ class CloudDatabaseService {
       if (res.ok) {
         const data: CloudState = await res.json();
         if (data && data.items) {
+          const cloudTimestamp = data.updatedAt || 0;
+          if (cloudTimestamp <= this.lastUpdatedAt) {
+            return null;
+          }
+
           const contentKey = JSON.stringify({
             items: data.items,
             tripTitle: data.tripTitle,
@@ -87,6 +121,7 @@ class CloudDatabaseService {
 
           if (contentKey !== this.lastContentKey) {
             this.lastContentKey = contentKey;
+            this.lastUpdatedAt = cloudTimestamp;
             localStorage.setItem(LOCAL_FAMILY_KEY, JSON.stringify(data));
             this.notifyListeners(data);
             return data;
@@ -95,26 +130,6 @@ class CloudDatabaseService {
       }
     } catch (e) {
       // Local sync unavailable in production
-    }
-
-    // 3. Fallback to localStorage cache
-    try {
-      const cached = localStorage.getItem(LOCAL_FAMILY_KEY);
-      if (cached) {
-        const parsed = JSON.parse(cached);
-        const contentKey = JSON.stringify({
-          items: parsed.items,
-          tripTitle: parsed.tripTitle,
-          savedTrips: parsed.savedTrips,
-          people: parsed.people,
-        });
-        if (contentKey !== this.lastContentKey) {
-          this.lastContentKey = contentKey;
-          return parsed;
-        }
-      }
-    } catch (e) {
-      console.error('Failed reading local cloud cache', e);
     }
 
     return null;
@@ -130,11 +145,15 @@ class CloudDatabaseService {
     });
 
     if (contentKey === this.lastContentKey) return true;
+
+    const now = Date.now();
     this.lastContentKey = contentKey;
+    this.lastUpdatedAt = now;
+    this.lastLocalEditTime = now;
 
     const fullState: CloudState = {
       ...state,
-      updatedAt: Date.now(),
+      updatedAt: now,
     };
     const jsonStr = JSON.stringify(fullState);
 
@@ -163,7 +182,6 @@ class CloudDatabaseService {
         }),
       });
       if (res.ok) {
-        this.notifyListeners(fullState);
         return true;
       }
     } catch (e) {
