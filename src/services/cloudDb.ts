@@ -40,12 +40,8 @@ class CloudDatabaseService {
   }
 
   private startPolling() {
-    if (typeof window === 'undefined') return;
-    this.pollInterval = setInterval(() => {
-      if (document.visibilityState === 'visible') {
-        this.pullCloudState();
-      }
-    }, 4000);
+    // Disabled background polling loop to prevent stale network responses from overwriting local edits
+    return;
   }
 
   // Fetch full cloud state (items + saved trips repository)
