@@ -55,7 +55,15 @@ export function App() {
       const saved = localStorage.getItem(STORAGE_KEY_ITEMS);
       if (saved) {
         const parsed: PackingItem[] = JSON.parse(saved);
-        return parsed;
+        const starterMap = new Map(STARTER_ITEMS.map((item) => [item.id, item]));
+        // Migrate: restore bag assignment if it was previously wiped or unassigned
+        return parsed.map((item) => {
+          const starter = starterMap.get(item.id);
+          if ((!item.luggage || item.luggage === 'unassigned') && starter && starter.luggage !== 'unassigned') {
+            return { ...item, luggage: starter.luggage };
+          }
+          return item;
+        });
       }
     } catch (e) {
       console.error(e);
@@ -93,11 +101,21 @@ export function App() {
       if (saved) {
         const parsed: SavedTrip[] = JSON.parse(saved);
         if (parsed.length > 0) {
-          const updated = parsed.map((t) =>
-            t.title === 'Louisville' || t.id === 'starter_louisville'
-              ? { ...t, title: 'Louisville October 2026' }
-              : t
-          );
+          const starterMap = new Map(STARTER_ITEMS.map((item) => [item.id, item]));
+          const updated = parsed.map((t) => {
+            const newTitle =
+              t.title === 'Louisville' || t.id === 'starter_louisville'
+                ? 'Louisville October 2026'
+                : t.title;
+            const updatedItems = (t.items || []).map((item) => {
+              const starter = starterMap.get(item.id);
+              if ((!item.luggage || item.luggage === 'unassigned') && starter && starter.luggage !== 'unassigned') {
+                return { ...item, luggage: starter.luggage };
+              }
+              return item;
+            });
+            return { ...t, title: newTitle, items: updatedItems };
+          });
           return sanitizeTrips(updated);
         }
       }
@@ -136,8 +154,16 @@ export function App() {
       isRemoteUpdate.current = true;
       if (state.items) {
         setItems((prev) => {
-          if (JSON.stringify(prev) === JSON.stringify(state.items)) return prev;
-          return state.items;
+          const starterMap = new Map(STARTER_ITEMS.map((item) => [item.id, item]));
+          const restored = state.items.map((item: PackingItem) => {
+            const starter = starterMap.get(item.id);
+            if ((!item.luggage || item.luggage === 'unassigned') && starter && starter.luggage !== 'unassigned') {
+              return { ...item, luggage: starter.luggage };
+            }
+            return item;
+          });
+          if (JSON.stringify(prev) === JSON.stringify(restored)) return prev;
+          return restored;
         });
       }
       if (state.tripTitle) {

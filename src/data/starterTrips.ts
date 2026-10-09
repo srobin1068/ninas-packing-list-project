@@ -21,7 +21,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 102
@@ -31,7 +31,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Body soap",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 103
@@ -41,7 +41,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit cover",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 104
@@ -51,7 +51,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bike helmet",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 105
@@ -61,7 +61,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Compression socks",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 106
@@ -71,7 +71,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rashguard",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 107
@@ -81,7 +81,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Long underwear",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 108
@@ -91,7 +91,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Conditioner",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 109
@@ -121,7 +121,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Face wash",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 112
@@ -131,7 +131,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pajamas",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 113
@@ -141,7 +141,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shampoo",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 114
@@ -151,7 +151,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shower cap",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 115
@@ -161,7 +161,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Straightening iron",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 116
@@ -171,7 +171,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Toothbrush",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Toiletries",
         "createdAt": 117
@@ -191,7 +191,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Aleve",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 119
@@ -201,7 +201,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Migraine meds",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 120
@@ -211,7 +211,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tylenol",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 121
@@ -221,7 +221,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lexapro + lamictal",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 122
@@ -231,7 +231,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Jeans",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 123
@@ -241,7 +241,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pantiliners",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 124
@@ -251,7 +251,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pads",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 125
@@ -261,7 +261,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tampons",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 126
@@ -271,7 +271,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Dopp bag",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 127
@@ -281,7 +281,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Vibrator and chargers",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Personal",
         "createdAt": 128
@@ -291,7 +291,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Comb",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 129
@@ -301,7 +301,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Brush",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 130
@@ -311,7 +311,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Contacts",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 131
@@ -321,7 +321,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Glasses",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 132
@@ -331,7 +331,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Socks",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 133
@@ -341,7 +341,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sporty leggings",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 134
@@ -351,7 +351,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Jogger pants",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 135
@@ -361,7 +361,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 136
@@ -371,7 +371,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Regular hat",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 137
@@ -381,7 +381,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sun hat",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 138
@@ -391,7 +391,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Short sleeve tops",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 139
@@ -401,7 +401,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tank tops",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 140
@@ -411,7 +411,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sweatshirts",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 141
@@ -421,7 +421,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Underwear",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 142
@@ -431,7 +431,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hiking boots",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 143
@@ -441,7 +441,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sneakers",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 144
@@ -451,7 +451,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Flip flops / Birkenstocks",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "personal",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 145
@@ -461,7 +461,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Book",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Misc",
         "createdAt": 146
@@ -471,7 +471,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hair ties",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Personal",
         "createdAt": 147
@@ -481,7 +481,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Razor",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 148
@@ -491,7 +491,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Foam roller",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 149
@@ -511,7 +511,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Gloves (winter - just in case)",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 151
@@ -521,7 +521,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stanley water bottle",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 152
@@ -531,7 +531,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Change of clothes for plane + overnight in Calgary (pajamas, etc.)",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 153
@@ -551,7 +551,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunglasses",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Accessories",
         "createdAt": 155
@@ -571,7 +571,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Computer and charger",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": true,
         "category": "Tech",
         "createdAt": 157
@@ -601,7 +601,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Car mirror for Jesse",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 202
@@ -611,7 +611,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby floats",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 203
@@ -621,7 +621,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bath mat",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 204
@@ -631,7 +631,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bath toys",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 205
@@ -641,7 +641,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pop-up beach tent for Jesse",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 206
@@ -651,7 +651,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lint roller (travel size) for ticks off clothing",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 207
@@ -661,7 +661,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Prunes (in unopened package)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 208
@@ -671,7 +671,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bowl(s)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 209
@@ -691,7 +691,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Carrier (hiking) - watch videos and test out back carrying",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 211
@@ -701,7 +701,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Diaper - swim",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 212
@@ -711,7 +711,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ear protection",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 213
@@ -721,7 +721,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Extra phone for bedroom just in case noisemaker goes out",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Tech",
         "createdAt": 214
@@ -731,7 +731,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Fan (for stroller)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 215
@@ -741,7 +741,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stuffies",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Comfort",
         "createdAt": 216
@@ -751,7 +751,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baseball hat",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 217
@@ -761,7 +761,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bike helmet",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 218
@@ -771,7 +771,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Plate(s)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 219
@@ -781,7 +781,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pool noodles",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 220
@@ -791,7 +791,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby soap",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 221
@@ -801,7 +801,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby tylenol (travel size) + syringes + measuring cup",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 222
@@ -811,7 +811,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Comb",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 223
@@ -821,7 +821,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Vaseline",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 224
@@ -831,7 +831,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Monitor + display + 2 chargers",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "computer",
         "isLastMinute": true,
         "category": "Tech",
         "createdAt": 225
@@ -841,7 +841,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pajamas",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 226
@@ -861,7 +861,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Mosquito net",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 228
@@ -871,7 +871,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stroller bar",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 229
@@ -881,7 +881,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rain cover for stroller",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 230
@@ -891,7 +891,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pants",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 231
@@ -901,7 +901,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Plastic bag (roll) for soiled clothes",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 232
@@ -911,7 +911,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Short sleeve shirts",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 233
@@ -921,7 +921,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Slumberpod",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 234
@@ -931,7 +931,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Socks",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 235
@@ -941,7 +941,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Thermometer",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 236
@@ -951,7 +951,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Toothbrush",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Toiletries",
         "createdAt": 237
@@ -971,7 +971,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Painter's tape",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 239
@@ -981,7 +981,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 240
@@ -991,7 +991,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby electrolytes",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 241
@@ -1001,7 +1001,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunscreen",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 242
@@ -1021,7 +1021,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sun hats",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 244
@@ -1031,7 +1031,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Water bottle",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 245
@@ -1041,7 +1041,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stroller",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 246
@@ -1051,7 +1051,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Magnesium chews",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 247
@@ -1061,7 +1061,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Gloves (winter)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 248
@@ -1071,7 +1071,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 249
@@ -1081,7 +1081,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rashguard",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 250
@@ -1091,7 +1091,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit (extra)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 251
@@ -1101,7 +1101,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby pee pads for changing (Chux)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 252
@@ -1111,7 +1111,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Cabinet locks",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 253
@@ -1121,7 +1121,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Life jacket",
         "packed": true,
         "owner": "jesse",
-        "luggage": "carry_on",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 254
@@ -1131,7 +1131,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Nail clippers",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "personal",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 255
@@ -1141,7 +1141,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Silverware (spoon and fork)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 256
@@ -1151,7 +1151,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Guava Lotus",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 257
@@ -1161,7 +1161,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Long sleeve shirts",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 258
@@ -1171,7 +1171,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Wipes - checked bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 259
@@ -1181,7 +1181,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bear",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Comfort",
         "createdAt": 260
@@ -1191,7 +1191,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Wipes - diaper bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 261
@@ -1201,7 +1201,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Clothes for plane, airport, etc",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": true,
         "category": "Clothing",
         "createdAt": 262
@@ -1211,7 +1211,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hair ties",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 263
@@ -1221,7 +1221,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Poppers (2)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toys",
         "createdAt": 264
@@ -1231,7 +1231,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Separate bag of clothes for overnight in Calgary hotel includes diapers",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 265
@@ -1241,7 +1241,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Miralax",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 266
@@ -1251,7 +1251,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunsuit",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 267
@@ -1261,7 +1261,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Noisemaker + Charger",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Tech",
         "createdAt": 268
@@ -1271,7 +1271,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sheet for crib",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 269
@@ -1281,7 +1281,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Cares harness - Nina watch videos",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 270
@@ -1291,7 +1291,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Inflatable Toddler Bed for Plane + mini-pump",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Comfort",
         "createdAt": 271
@@ -1301,7 +1301,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Car seat",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 272
@@ -1311,7 +1311,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Car seat bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 273
@@ -1321,7 +1321,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Straw cups",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 274
@@ -1331,7 +1331,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Guava Lotus - 2 sheets",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 275
@@ -1341,7 +1341,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stroller bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 276
@@ -1351,7 +1351,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Diapers",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 277
@@ -1361,7 +1361,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Books",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toys",
         "createdAt": 278
@@ -1371,7 +1371,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Snack bars",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 279
@@ -1381,7 +1381,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Snacks",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 280
@@ -1391,7 +1391,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Vomit pills",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 281
@@ -1401,7 +1401,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shoes",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 282
@@ -1411,7 +1411,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunglasses",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": true,
         "category": "Accessories",
         "createdAt": 283
@@ -1421,7 +1421,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Diaper bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 284
@@ -1431,7 +1431,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Toys / trains",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toys",
         "createdAt": 285
@@ -1471,7 +1471,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Artificial Tears",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 404
@@ -1481,7 +1481,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 405
@@ -1491,7 +1491,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bike helmet",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 406
@@ -1501,7 +1501,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bike underwear (padded)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 407
@@ -1521,7 +1521,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bluetooth speaker",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 409
@@ -1531,7 +1531,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Clindamycin",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 410
@@ -1541,7 +1541,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Compression Underwear",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 411
@@ -1551,7 +1551,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Compression socks",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 412
@@ -1561,7 +1561,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Condom",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Personal",
         "createdAt": 413
@@ -1571,7 +1571,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Contacts",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 414
@@ -1581,7 +1581,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Deodroant (fill to top)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 415
@@ -1591,7 +1591,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Diclofenac",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 416
@@ -1601,7 +1601,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Dop bag",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 417
@@ -1611,7 +1611,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Dry bag",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 418
@@ -1631,7 +1631,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Eyedrops",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 420
@@ -1651,7 +1651,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Facewash - fill all the way up",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 422
@@ -1671,7 +1671,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Flip flops",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "personal",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 424
@@ -1681,7 +1681,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Glasses (regular)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 425
@@ -1691,7 +1691,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Gloves (Winter)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 426
@@ -1701,7 +1701,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Goggles",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 427
@@ -1721,7 +1721,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Handwarmers",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 429
@@ -1731,7 +1731,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hat (cold weather)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 430
@@ -1741,7 +1741,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hat (warm weather)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 431
@@ -1751,7 +1751,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hoodie?",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 432
@@ -1781,7 +1781,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Jeans",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 435
@@ -1791,7 +1791,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Juggling balls",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Misc",
         "createdAt": 436
@@ -1801,7 +1801,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Long sleeve shirt",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 437
@@ -1811,7 +1811,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Long underwear",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 438
@@ -1821,7 +1821,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lube (little one)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Personal",
         "createdAt": 439
@@ -1831,7 +1831,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Masks - overhead and over ears",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 440
@@ -1841,7 +1841,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Meds (atenolol, buprop, vtama, clindamycin, afrin, nasonex)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 441
@@ -1851,7 +1851,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "meds for plane (Zofran, Aleve, Tylenol)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 442
@@ -1861,7 +1861,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Motion sickness (boats)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 443
@@ -1871,7 +1871,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Mouthguard",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 444
@@ -1881,7 +1881,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "New hiking shoes",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 445
@@ -1891,7 +1891,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Noisemaker charger and cords",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 446
@@ -1901,7 +1901,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pajama top and bottom",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 447
@@ -1911,7 +1911,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pants, Yoga",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 448
@@ -1951,7 +1951,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rashguard",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 452
@@ -1961,7 +1961,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shants and Ports - outdoor research ferrosi convertible",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 453
@@ -1971,7 +1971,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shaver + Charger",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "computer",
         "isLastMinute": true,
         "category": "Toiletries",
         "createdAt": 454
@@ -1981,7 +1981,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts (comfy)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 455
@@ -1991,7 +1991,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts (khaki)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 456
@@ -2001,7 +2001,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts (workout)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 457
@@ -2011,7 +2011,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sinus Rinse Bottle, Packets, Alcohol",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 458
@@ -2021,7 +2021,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Socks (winter, ankle, others)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 459
@@ -2031,7 +2031,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunglasses",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Accessories",
         "createdAt": 460
@@ -2041,7 +2041,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sweatbands (wrist)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 461
@@ -2051,7 +2051,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tank top (black stripe)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 462
@@ -2061,7 +2061,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "T-shirts (athletic)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 463
@@ -2071,7 +2071,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "T-shirts (nice)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 464
@@ -2081,7 +2081,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tennis racquet",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 465
@@ -2091,7 +2091,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tennis shoes",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 466
@@ -2101,7 +2101,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Towel (Quick-Dry for beach)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 467
@@ -2111,7 +2111,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Underwear",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 468
@@ -2121,7 +2121,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Vitamin B",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 469
@@ -2131,7 +2131,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Washcloth",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 470
@@ -2141,7 +2141,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Water bottle?",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 471
@@ -2151,7 +2151,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Waterproof pouch (for Glacier Explorer)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 472
@@ -2161,7 +2161,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Zyrtec",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 473
@@ -2171,7 +2171,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Trazadone",
         "packed": false,
         "owner": "teddy",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Meds",
         "createdAt": 301
@@ -2181,7 +2181,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Food",
         "packed": false,
         "owner": "teddy",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 302
@@ -2191,7 +2191,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Chews",
         "packed": false,
         "owner": "teddy",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 303
@@ -2201,7 +2201,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Wet food",
         "packed": false,
         "owner": "teddy",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 304
@@ -2211,7 +2211,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "First aid kit",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 501
@@ -2221,7 +2221,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Coffee",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 502
@@ -2231,7 +2231,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "French press",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 503
@@ -2241,7 +2241,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Anti itch cream",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 504
@@ -2251,7 +2251,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Masks",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 505
@@ -2261,7 +2261,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "2 flat sheets (king)",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 601
@@ -2271,7 +2271,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Aluminum foil for lounge food",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 602
@@ -2281,7 +2281,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Anti-itch medication (Rx)",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 603
@@ -2291,7 +2291,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Antihistamines for sandfly",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 604
@@ -2301,7 +2301,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Carbon monoxide + Smoke detector",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Safety",
         "createdAt": 605
@@ -2311,7 +2311,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Cooler",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 606
@@ -2321,7 +2321,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "COVID Tests - 3 boxes",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 607
@@ -2341,7 +2341,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "First aid stuff - bandaids, cream",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 609
@@ -2351,7 +2351,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "fleece blankets",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Comfort",
         "createdAt": 610
@@ -2361,7 +2361,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Garbage bags (a few large white ones)",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 611
@@ -2381,7 +2381,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "hand towels",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 613
@@ -2391,7 +2391,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Headlamps",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 614
@@ -2401,7 +2401,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hydrocortisone",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 615
@@ -2411,7 +2411,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ice packs",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 616
@@ -2421,7 +2421,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Luggage locks (Mike)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 617
@@ -2451,7 +2451,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pee funnels for Nina",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Personal",
         "createdAt": 620
@@ -2461,7 +2461,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Phone holder for car since no carplay",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 621
@@ -2501,7 +2501,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "toewarmers",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 625
@@ -2511,7 +2511,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "towels for shower",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 626
@@ -2531,7 +2531,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Zpack",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 628
@@ -2541,7 +2541,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Food in fridge",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Food",
         "createdAt": 629
@@ -2561,7 +2561,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Adapters",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 631
@@ -2581,7 +2581,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "aleve",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 633
@@ -2601,7 +2601,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bug spray - Picaridin",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 635
@@ -2611,7 +2611,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bug spray - Picaridin roll-on",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 636
@@ -2621,7 +2621,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Canvas bags",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 637
@@ -2631,7 +2631,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Car charger with 2 ports",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 638
@@ -2641,7 +2641,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Charging cables - USB A, USB C, MicroUSB (enough for both of us)",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 639
@@ -2651,7 +2651,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Cold Meds",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 640
@@ -2671,7 +2671,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Day pack (trip advisor bag)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 642
@@ -2691,7 +2691,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "handwarmers",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 644
@@ -2701,7 +2701,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hiking poles (if there's room)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 645
@@ -2711,7 +2711,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ibuprofen",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 646
@@ -2721,7 +2721,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Laundry Detergent pods",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 647
@@ -2731,7 +2731,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lens cleaning wipes",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 648
@@ -2741,7 +2741,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Oura charger",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 649
@@ -2751,7 +2751,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "painters tape to hang contractor bags",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 650
@@ -2761,7 +2761,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Plastic grocery bags",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 651
@@ -2771,7 +2771,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rx anti-itch from Lester",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 652
@@ -2791,7 +2791,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "sunscreen - spray",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 654
@@ -2801,7 +2801,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "sunscreen - thinksport",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 655
@@ -2821,7 +2821,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "sunscreen - mike face",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 657
@@ -2831,7 +2831,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "sunscreen - nina face",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 658
@@ -2841,7 +2841,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunshade for car windows",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 659
@@ -2851,7 +2851,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunshade for front of car",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 660
@@ -2871,7 +2871,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tylenol",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 662
@@ -2881,7 +2881,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ponchos",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 663
@@ -2891,7 +2891,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Umbrella (lightweight) 2?",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 664
@@ -2901,7 +2901,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ziplocs (large and small)",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 665
@@ -2921,7 +2921,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stroller cable lock",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 667
@@ -2961,7 +2961,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "black contractor bags",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 671
@@ -2971,7 +2971,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Camelbak (Osprey)",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 672
@@ -2981,7 +2981,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Electrolytes",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 673
@@ -2991,7 +2991,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Energy bars/snacks",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 674
@@ -3001,7 +3001,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Latex gloves (in case Nina needs for headache)",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 675
@@ -3011,7 +3011,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lint roller for ticks off clothing",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 676
@@ -3021,7 +3021,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "snot rags as washcloth for Jesse",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 677
@@ -3031,7 +3031,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "small towel to use if hiking",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 678
@@ -3076,7 +3076,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lightweight jacket",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 101
@@ -3086,7 +3086,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 102
@@ -3096,7 +3096,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Body soap",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 103
@@ -3106,7 +3106,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit cover",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 104
@@ -3116,7 +3116,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bike helmet",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 105
@@ -3126,7 +3126,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Compression socks",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 106
@@ -3136,7 +3136,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rashguard",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 107
@@ -3146,7 +3146,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Long underwear",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 108
@@ -3156,7 +3156,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Conditioner",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 109
@@ -3186,7 +3186,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Face wash",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 112
@@ -3196,7 +3196,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pajamas",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 113
@@ -3206,7 +3206,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shampoo",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 114
@@ -3216,7 +3216,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shower cap",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 115
@@ -3226,7 +3226,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Straightening iron",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 116
@@ -3236,7 +3236,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Toothbrush",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Toiletries",
         "createdAt": 117
@@ -3256,7 +3256,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Aleve",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 119
@@ -3266,7 +3266,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Migraine meds",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 120
@@ -3276,7 +3276,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tylenol",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 121
@@ -3286,7 +3286,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lexapro + lamictal",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 122
@@ -3296,7 +3296,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Jeans",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 123
@@ -3306,7 +3306,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pantiliners",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 124
@@ -3316,7 +3316,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pads",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 125
@@ -3326,7 +3326,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tampons",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 126
@@ -3336,7 +3336,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Dopp bag",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 127
@@ -3346,7 +3346,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Vibrator and chargers",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Personal",
         "createdAt": 128
@@ -3356,7 +3356,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Comb",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 129
@@ -3366,7 +3366,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Brush",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 130
@@ -3376,7 +3376,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Contacts",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 131
@@ -3386,7 +3386,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Glasses",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 132
@@ -3396,7 +3396,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Socks",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 133
@@ -3406,7 +3406,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sporty leggings",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 134
@@ -3416,7 +3416,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Jogger pants",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 135
@@ -3426,7 +3426,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 136
@@ -3436,7 +3436,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Regular hat",
         "packed": true,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 137
@@ -3446,7 +3446,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sun hat",
         "packed": true,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 138
@@ -3456,7 +3456,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Short sleeve tops",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 139
@@ -3466,7 +3466,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tank tops",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 140
@@ -3476,7 +3476,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sweatshirts",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 141
@@ -3486,7 +3486,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Underwear",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 142
@@ -3496,7 +3496,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hiking boots",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 143
@@ -3506,7 +3506,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sneakers",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 144
@@ -3516,7 +3516,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Flip flops / Birkenstocks",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "personal",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 145
@@ -3526,7 +3526,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Book",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Misc",
         "createdAt": 146
@@ -3536,7 +3536,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hair ties",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Personal",
         "createdAt": 147
@@ -3546,7 +3546,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Razor",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 148
@@ -3556,7 +3556,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Foam roller",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 149
@@ -3576,7 +3576,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Gloves (winter - just in case)",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 151
@@ -3586,7 +3586,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stanley water bottle",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 152
@@ -3596,7 +3596,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Change of clothes for plane + overnight in Calgary (pajamas, etc.)",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 153
@@ -3616,7 +3616,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunglasses",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Accessories",
         "createdAt": 155
@@ -3636,7 +3636,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Computer and charger",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": true,
         "category": "Tech",
         "createdAt": 157
@@ -3666,7 +3666,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Car mirror for Jesse",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 202
@@ -3676,7 +3676,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby floats",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 203
@@ -3686,7 +3686,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bath mat",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 204
@@ -3696,7 +3696,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bath toys",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 205
@@ -3706,7 +3706,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pop-up beach tent for Jesse",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 206
@@ -3716,7 +3716,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lint roller (travel size) for ticks off clothing",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 207
@@ -3726,7 +3726,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Prunes (in unopened package)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 208
@@ -3736,7 +3736,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bowl(s)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 209
@@ -3746,7 +3746,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rain jacket",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 210
@@ -3756,7 +3756,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Carrier (hiking) - watch videos and test out back carrying",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 211
@@ -3766,7 +3766,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Diaper - swim",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 212
@@ -3776,7 +3776,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ear protection",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 213
@@ -3786,7 +3786,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Extra phone for bedroom just in case noisemaker goes out",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Tech",
         "createdAt": 214
@@ -3796,7 +3796,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Fan (for stroller)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 215
@@ -3806,7 +3806,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stuffies",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Comfort",
         "createdAt": 216
@@ -3816,7 +3816,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baseball hat",
         "packed": true,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 217
@@ -3826,7 +3826,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bike helmet",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 218
@@ -3836,7 +3836,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Plate(s)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 219
@@ -3846,7 +3846,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pool noodles",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 220
@@ -3856,7 +3856,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby soap",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 221
@@ -3866,7 +3866,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby tylenol (travel size) + syringes + measuring cup",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 222
@@ -3876,7 +3876,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Comb",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 223
@@ -3886,7 +3886,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Vaseline",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 224
@@ -3896,7 +3896,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Monitor + display + 2 chargers",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "computer",
         "isLastMinute": true,
         "category": "Tech",
         "createdAt": 225
@@ -3906,7 +3906,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pajamas",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 226
@@ -3916,7 +3916,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Heavy Jacket",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 227
@@ -3926,7 +3926,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Mosquito net",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 228
@@ -3936,7 +3936,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stroller bar",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 229
@@ -3946,7 +3946,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rain cover for stroller",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 230
@@ -3956,7 +3956,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pants",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 231
@@ -3966,7 +3966,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Plastic bag (roll) for soiled clothes",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 232
@@ -3976,7 +3976,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Short sleeve shirts",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 233
@@ -3986,7 +3986,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Slumberpod",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 234
@@ -3996,7 +3996,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Socks",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 235
@@ -4006,7 +4006,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Thermometer",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 236
@@ -4016,7 +4016,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Toothbrush",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Toiletries",
         "createdAt": 237
@@ -4036,7 +4036,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Painter's tape",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 239
@@ -4046,7 +4046,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 240
@@ -4056,7 +4056,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby electrolytes",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 241
@@ -4066,7 +4066,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunscreen",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 242
@@ -4076,7 +4076,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Light jacket",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 243
@@ -4086,7 +4086,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sun hats",
         "packed": true,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 244
@@ -4096,7 +4096,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Water bottle",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 245
@@ -4106,7 +4106,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stroller",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 246
@@ -4116,7 +4116,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Magnesium chews",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 247
@@ -4126,7 +4126,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Gloves (winter)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 248
@@ -4136,7 +4136,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 249
@@ -4146,7 +4146,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rashguard",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 250
@@ -4156,7 +4156,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit (extra)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 251
@@ -4166,7 +4166,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Baby pee pads for changing (Chux)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 252
@@ -4176,7 +4176,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Cabinet locks",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 253
@@ -4186,7 +4186,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Life jacket",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 254
@@ -4196,7 +4196,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Nail clippers",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "personal",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 255
@@ -4206,7 +4206,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Silverware (spoon and fork)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 256
@@ -4216,7 +4216,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Guava Lotus",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 257
@@ -4226,7 +4226,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Long sleeve shirts",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 258
@@ -4236,7 +4236,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Wipes - checked bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 259
@@ -4246,7 +4246,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bear",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Comfort",
         "createdAt": 260
@@ -4256,7 +4256,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Wipes - diaper bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 261
@@ -4266,7 +4266,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Clothes for plane, airport, etc",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": true,
         "category": "Clothing",
         "createdAt": 262
@@ -4276,7 +4276,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hair ties",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 263
@@ -4286,7 +4286,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Poppers (2)",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toys",
         "createdAt": 264
@@ -4296,7 +4296,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Separate bag of clothes for overnight in Calgary hotel includes diapers",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 265
@@ -4306,7 +4306,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Miralax",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 266
@@ -4316,7 +4316,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunsuit",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 267
@@ -4326,7 +4326,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Noisemaker + Charger",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Tech",
         "createdAt": 268
@@ -4336,7 +4336,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sheet for crib",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 269
@@ -4346,7 +4346,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Cares harness - Nina watch videos",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 270
@@ -4356,7 +4356,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Inflatable Toddler Bed for Plane + mini-pump",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Comfort",
         "createdAt": 271
@@ -4366,7 +4366,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Car seat",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 272
@@ -4376,7 +4376,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Car seat bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 273
@@ -4386,7 +4386,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Straw cups",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 274
@@ -4396,7 +4396,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Guava Lotus - 2 sheets",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 275
@@ -4406,7 +4406,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stroller bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 276
@@ -4416,7 +4416,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Diapers",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 277
@@ -4426,7 +4426,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Books",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toys",
         "createdAt": 278
@@ -4436,7 +4436,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Snack bars",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 279
@@ -4446,7 +4446,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Snacks",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 280
@@ -4456,7 +4456,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Vomit pills",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 281
@@ -4466,7 +4466,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shoes",
         "packed": true,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 282
@@ -4476,7 +4476,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunglasses",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": true,
         "category": "Accessories",
         "createdAt": 283
@@ -4486,7 +4486,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Diaper bag",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 284
@@ -4496,7 +4496,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Toys / trains",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Toys",
         "createdAt": 285
@@ -4536,7 +4536,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Artificial Tears",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 404
@@ -4546,7 +4546,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bathing suit",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 405
@@ -4556,7 +4556,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bike helmet",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 406
@@ -4566,7 +4566,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bike underwear (padded)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 407
@@ -4586,7 +4586,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bluetooth speaker",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 409
@@ -4596,7 +4596,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Clindamycin",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 410
@@ -4606,7 +4606,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Compression Underwear",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 411
@@ -4616,7 +4616,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Compression socks",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 412
@@ -4626,7 +4626,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Condom",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Personal",
         "createdAt": 413
@@ -4636,7 +4636,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Contacts",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 414
@@ -4646,7 +4646,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Deodroant (fill to top)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 415
@@ -4656,7 +4656,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Diclofenac",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 416
@@ -4666,7 +4666,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Dop bag",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 417
@@ -4676,7 +4676,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Dry bag",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 418
@@ -4696,7 +4696,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Eyedrops",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 420
@@ -4716,7 +4716,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Facewash - fill all the way up",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 422
@@ -4736,7 +4736,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Flip flops",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "personal",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 424
@@ -4746,7 +4746,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Glasses (regular)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 425
@@ -4756,7 +4756,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Gloves (Winter)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 426
@@ -4766,7 +4766,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Goggles",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 427
@@ -4786,7 +4786,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Handwarmers",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 429
@@ -4796,7 +4796,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hat (cold weather)",
         "packed": true,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 430
@@ -4806,7 +4806,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hat (warm weather)",
         "packed": true,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 431
@@ -4816,7 +4816,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hoodie?",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 432
@@ -4836,7 +4836,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Jacket",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 434
@@ -4846,7 +4846,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Jeans",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 435
@@ -4856,7 +4856,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Juggling balls",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Misc",
         "createdAt": 436
@@ -4866,7 +4866,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Long sleeve shirt",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 437
@@ -4876,7 +4876,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Long underwear",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 438
@@ -4886,7 +4886,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lube (little one)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Personal",
         "createdAt": 439
@@ -4896,7 +4896,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Masks - overhead and over ears",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 440
@@ -4906,7 +4906,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Meds (atenolol, buprop, vtama, clindamycin, afrin, nasonex)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 441
@@ -4916,7 +4916,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "meds for plane (Zofran, Aleve, Tylenol)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 442
@@ -4926,7 +4926,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Motion sickness (boats)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 443
@@ -4936,7 +4936,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Mouthguard",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Health",
         "createdAt": 444
@@ -4946,7 +4946,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "New hiking shoes",
         "packed": true,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 445
@@ -4956,7 +4956,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Noisemaker charger and cords",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 446
@@ -4966,7 +4966,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pajama top and bottom",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 447
@@ -4976,7 +4976,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pants, Yoga",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 448
@@ -5016,7 +5016,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rashguard",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 452
@@ -5026,7 +5026,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shants and Ports - outdoor research ferrosi convertible",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 453
@@ -5036,7 +5036,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shaver + Charger",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "computer",
         "isLastMinute": true,
         "category": "Toiletries",
         "createdAt": 454
@@ -5046,7 +5046,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts (comfy)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 455
@@ -5056,7 +5056,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts (khaki)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 456
@@ -5066,7 +5066,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Shorts (workout)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 457
@@ -5076,7 +5076,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sinus Rinse Bottle, Packets, Alcohol",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 458
@@ -5086,7 +5086,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Socks (winter, ankle, others)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 459
@@ -5096,7 +5096,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunglasses",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": true,
         "category": "Accessories",
         "createdAt": 460
@@ -5106,7 +5106,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sweatbands (wrist)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 461
@@ -5116,7 +5116,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tank top (black stripe)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 462
@@ -5126,7 +5126,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "T-shirts (athletic)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 463
@@ -5136,7 +5136,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "T-shirts (nice)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 464
@@ -5146,7 +5146,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tennis racquet",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 465
@@ -5156,7 +5156,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tennis shoes",
         "packed": true,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Footwear",
         "createdAt": 466
@@ -5166,7 +5166,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Towel (Quick-Dry for beach)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 467
@@ -5176,7 +5176,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Underwear",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Clothing",
         "createdAt": 468
@@ -5186,7 +5186,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Vitamin B",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 469
@@ -5196,7 +5196,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Washcloth",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 470
@@ -5206,7 +5206,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Water bottle?",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 471
@@ -5216,7 +5216,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Waterproof pouch (for Glacier Explorer)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 472
@@ -5226,7 +5226,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Zyrtec",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 473
@@ -5236,7 +5236,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Trazadone",
         "packed": false,
         "owner": "teddy",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Meds",
         "createdAt": 301
@@ -5246,7 +5246,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Food",
         "packed": false,
         "owner": "teddy",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 302
@@ -5256,7 +5256,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Chews",
         "packed": false,
         "owner": "teddy",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 303
@@ -5266,7 +5266,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Wet food",
         "packed": false,
         "owner": "teddy",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 304
@@ -5276,7 +5276,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "First aid kit",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 501
@@ -5286,7 +5286,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Coffee",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 502
@@ -5296,7 +5296,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "French press",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 503
@@ -5306,7 +5306,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Anti itch cream",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 504
@@ -5316,7 +5316,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Masks",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 505
@@ -5326,7 +5326,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "2 flat sheets (king)",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 601
@@ -5336,7 +5336,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Aluminum foil for lounge food",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 602
@@ -5346,7 +5346,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Anti-itch medication (Rx)",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 603
@@ -5356,7 +5356,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Antihistamines for sandfly",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 604
@@ -5366,7 +5366,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Carbon monoxide + Smoke detector",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Safety",
         "createdAt": 605
@@ -5376,7 +5376,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Cooler",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 606
@@ -5386,7 +5386,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "COVID Tests - 3 boxes",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 607
@@ -5406,7 +5406,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "First aid stuff - bandaids, cream",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 609
@@ -5416,7 +5416,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "fleece blankets",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Comfort",
         "createdAt": 610
@@ -5426,7 +5426,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Garbage bags (a few large white ones)",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 611
@@ -5446,7 +5446,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "hand towels",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 613
@@ -5456,7 +5456,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Headlamps",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 614
@@ -5466,7 +5466,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hydrocortisone",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 615
@@ -5476,7 +5476,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ice packs",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 616
@@ -5486,7 +5486,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Luggage locks (Mike)",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 617
@@ -5516,7 +5516,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Pee funnels for Nina",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Personal",
         "createdAt": 620
@@ -5526,7 +5526,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Phone holder for car since no carplay",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 621
@@ -5566,7 +5566,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "toewarmers",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 625
@@ -5576,7 +5576,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "towels for shower",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 626
@@ -5596,7 +5596,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Zpack",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 628
@@ -5606,7 +5606,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Food in fridge",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": true,
         "category": "Food",
         "createdAt": 629
@@ -5626,7 +5626,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Adapters",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 631
@@ -5646,7 +5646,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "aleve",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 633
@@ -5666,7 +5666,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bug spray - Picaridin",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 635
@@ -5676,7 +5676,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Bug spray - Picaridin roll-on",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 636
@@ -5686,7 +5686,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Canvas bags",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 637
@@ -5696,7 +5696,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Car charger with 2 ports",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 638
@@ -5706,7 +5706,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Charging cables - USB A, USB C, MicroUSB (enough for both of us)",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 639
@@ -5716,7 +5716,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Cold Meds",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 640
@@ -5736,7 +5736,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Day pack (trip advisor bag)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 642
@@ -5756,7 +5756,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "handwarmers",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 644
@@ -5766,7 +5766,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Hiking poles (if there's room)",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 645
@@ -5776,7 +5776,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ibuprofen",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 646
@@ -5786,7 +5786,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Laundry Detergent pods",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 647
@@ -5796,7 +5796,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lens cleaning wipes",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 648
@@ -5806,7 +5806,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Oura charger",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "computer",
         "isLastMinute": false,
         "category": "Tech",
         "createdAt": 649
@@ -5816,7 +5816,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "painters tape to hang contractor bags",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 650
@@ -5826,7 +5826,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Plastic grocery bags",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 651
@@ -5836,7 +5836,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Rx anti-itch from Lester",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 652
@@ -5856,7 +5856,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "sunscreen - spray",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 654
@@ -5866,7 +5866,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "sunscreen - thinksport",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 655
@@ -5886,7 +5886,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "sunscreen - mike face",
         "packed": false,
         "owner": "mike",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 657
@@ -5896,7 +5896,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "sunscreen - nina face",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Toiletries",
         "createdAt": 658
@@ -5906,7 +5906,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunshade for car windows",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 659
@@ -5916,7 +5916,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Sunshade for front of car",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 660
@@ -5936,7 +5936,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Tylenol",
         "packed": false,
         "owner": "mike",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 662
@@ -5946,7 +5946,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ponchos",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 663
@@ -5956,7 +5956,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Umbrella (lightweight) 2?",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "carry_on",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 664
@@ -5966,7 +5966,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Ziplocs (large and small)",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 665
@@ -5986,7 +5986,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Stroller cable lock",
         "packed": false,
         "owner": "jesse",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 667
@@ -6026,7 +6026,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "black contractor bags",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 671
@@ -6036,7 +6036,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Camelbak (Osprey)",
         "packed": false,
         "owner": "nina",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 672
@@ -6046,7 +6046,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Electrolytes",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 673
@@ -6056,7 +6056,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Energy bars/snacks",
         "packed": false,
         "owner": "shared",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Food",
         "createdAt": 674
@@ -6066,7 +6066,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Latex gloves (in case Nina needs for headache)",
         "packed": false,
         "owner": "nina",
-        "luggage": "personal",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Health",
         "createdAt": 675
@@ -6076,7 +6076,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "Lint roller for ticks off clothing",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 676
@@ -6086,7 +6086,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "snot rags as washcloth for Jesse",
         "packed": false,
         "owner": "jesse",
-        "luggage": "personal",
+        "luggage": "diaper",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 677
@@ -6096,7 +6096,7 @@ export const STARTER_TRIPS: SavedTrip[] = [
         "text": "small towel to use if hiking",
         "packed": false,
         "owner": "shared",
-        "luggage": "unassigned",
+        "luggage": "checked",
         "isLastMinute": false,
         "category": "Gear",
         "createdAt": 678
