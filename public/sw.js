@@ -1,8 +1,8 @@
-const CACHE_NAME = 'packmate-v1';
+const CACHE_NAME = 'packmate-v3';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json'
+  './',
+  './index.html',
+  './manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
