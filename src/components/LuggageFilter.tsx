@@ -20,6 +20,7 @@ interface LuggageFilterProps {
   searchQuery: string;
   onSearchQueryChange: (query: string) => void;
   displayedCount?: number;
+  searchSuggestions?: { id: string; text: string; luggage: string }[];
   groupByCategory: boolean;
   onToggleGroupByCategory: () => void;
 }
@@ -41,6 +42,7 @@ export const LuggageFilter: React.FC<LuggageFilterProps> = ({
   searchQuery,
   onSearchQueryChange,
   displayedCount,
+  searchSuggestions,
   groupByCategory,
   onToggleGroupByCategory,
 }) => {
@@ -132,6 +134,24 @@ export const LuggageFilter: React.FC<LuggageFilterProps> = ({
             <span className="hidden sm:inline">{groupByCategory ? 'By Category' : 'Flat List'}</span>
           </button>
         </div>
+
+        {/* Quick Search Suggestions */}
+        {searchQuery.trim().length >= 1 && searchSuggestions && searchSuggestions.length > 0 && (
+          <div className="flex items-center gap-1.5 overflow-x-auto py-1 scrollbar-none text-xs animate-in fade-in">
+            <span className="text-[11px] text-slate-400 font-semibold shrink-0">Matching:</span>
+            {searchSuggestions.map((s) => (
+              <button
+                key={s.id}
+                type="button"
+                onClick={() => onSearchQueryChange(s.text)}
+                className="px-2.5 py-1 rounded-lg bg-teal-50 hover:bg-teal-100 text-teal-800 border border-teal-200/80 font-semibold whitespace-nowrap transition text-xs shrink-0 flex items-center gap-1.5 shadow-2xs active:scale-95"
+              >
+                <span>{LUGGAGE_INFO[s.luggage as keyof typeof LUGGAGE_INFO]?.icon || '📦'}</span>
+                <span>{s.text}</span>
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* Bag Selection Pills & Morning-of toggle */}
         <div className="flex flex-wrap items-center gap-1.5 pb-0.5 pt-0.5">

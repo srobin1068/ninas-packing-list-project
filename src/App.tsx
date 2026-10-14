@@ -568,19 +568,59 @@ export function App() {
 
         if (searchQuery.trim()) {
           const q = searchQuery.toLowerCase().trim();
-          const matchesText = item.text.toLowerCase().includes(q);
-          const matchesCategory = item.category?.toLowerCase().includes(q);
-          const matchesOwner = item.owner?.toLowerCase().includes(q);
-          const matchesLuggage = item.luggage?.toLowerCase().includes(q);
-          if (!matchesText && !matchesCategory && !matchesOwner && !matchesLuggage) {
+          const singularQ = q.endsWith('s') && q.length > 3 ? q.slice(0, -1) : q;
+          const pluralQ = q + 's';
+
+          const text = item.text.toLowerCase();
+          const cat = item.category?.toLowerCase() || '';
+
+          const matchesText =
+            text.includes(q) ||
+            text.includes(singularQ) ||
+            (q.length >= 3 && text.includes(pluralQ));
+          const matchesCategory = cat.includes(q);
+
+          if (!matchesText && !matchesCategory) {
             return false;
           }
         }
 
         return true;
       })
-      .sort((a, b) => a.text.localeCompare(b.text, undefined, { sensitivity: 'base' }));
+      .sort((a, b) => {
+        // When searching, sort by relevance so items starting with query appear first
+        if (searchQuery.trim()) {
+          const q = searchQuery.toLowerCase().trim();
+          const singularQ = q.endsWith('s') && q.length > 3 ? q.slice(0, -1) : q;
+          const textA = a.text.toLowerCase();
+          const textB = b.text.toLowerCase();
+
+          // 1. Exact match
+          if (textA === q && textB !== q) return -1;
+          if (textB === q && textA !== q) return 1;
+
+          // 2. Starts with query
+          const aStarts = textA.startsWith(q) || textA.startsWith(singularQ);
+          const bStarts = textB.startsWith(q) || textB.startsWith(singularQ);
+          if (aStarts && !bStarts) return -1;
+          if (!aStarts && bStarts) return 1;
+
+          // 3. Word boundary starts with query
+          const regex = new RegExp(`\\b(${q}|${singularQ})`, 'i');
+          const aWord = regex.test(textA);
+          const bWord = regex.test(textB);
+          if (aWord && !bWord) return -1;
+          if (!aWord && bWord) return 1;
+        }
+
+        return a.text.localeCompare(b.text, undefined, { sensitivity: 'base' });
+      });
   }, [currentTabItems, showMorningOfOnly, selectedBags, packedFilter, showNAItems, searchQuery]);
+
+  const searchSuggestions = useMemo(() => {
+    if (!searchQuery.trim() || searchQuery.trim().length < 1) return [];
+    return displayedItems.slice(0, 5).map((i) => ({ id: i.id, text: i.text, luggage: i.luggage }));
+  }, [displayedItems, searchQuery]);
 
   const groupedDisplayedItems = useMemo(() => {
     if (!groupByCategory) return null;
@@ -682,6 +722,7 @@ export function App() {
           searchQuery={searchQuery}
           onSearchQueryChange={setSearchQuery}
           displayedCount={displayedItems.length}
+          searchSuggestions={searchSuggestions}
           groupByCategory={groupByCategory}
           onToggleGroupByCategory={() => setGroupByCategory(!groupByCategory)}
         />
