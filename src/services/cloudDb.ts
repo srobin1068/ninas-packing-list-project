@@ -40,21 +40,27 @@ class CloudDatabaseService {
   }
 
   private startPolling() {
-    // Disabled background polling loop to prevent stale network responses from overwriting local edits
-    return;
+    if (typeof window === 'undefined') return;
+    this.pollInterval = setInterval(() => {
+      if (document.visibilityState === 'visible' && (typeof navigator === 'undefined' || navigator.onLine)) {
+        this.pullCloudState();
+      }
+    }, 10000);
   }
 
   // Fetch full cloud state (items + saved trips repository)
-  public async pullCloudState(): Promise<CloudState | null> {
-    // Safeguard: Do not pull/override if a local edit occurred within the last 6 seconds
-    if (Date.now() - this.lastLocalEditTime < 6000) {
+  public async pullCloudState(force: boolean = false): Promise<CloudState | null> {
+    // Safeguard: Do not pull/override if a local edit occurred within the last 6 seconds (unless forced)
+    if (!force && Date.now() - this.lastLocalEditTime < 6000) {
       return null;
     }
 
     // 1. Try global cloud database (GitHub Gist API)
     try {
-      const res = await fetch(GIST_API_URL, {
+      const res = await fetch(`${GIST_API_URL}?t=${Date.now()}`, {
+        cache: 'no-store',
         headers: {
+          'Authorization': `Bearer ${GIST_TOKEN}`,
           'Accept': 'application/vnd.github.v3+json',
         },
       });
@@ -65,9 +71,9 @@ class CloudDatabaseService {
         if (contentStr) {
           const data: CloudState = JSON.parse(contentStr);
           if (data && data.items && Array.isArray(data.items)) {
-            // Timestamp validation: only accept cloud data if it is NEWER than local timestamp
             const cloudTimestamp = data.updatedAt || 0;
-            if (cloudTimestamp <= this.lastUpdatedAt) {
+            // Only accept if cloud is newer or force is requested
+            if (!force && cloudTimestamp < this.lastUpdatedAt) {
               return null;
             }
 
@@ -78,9 +84,9 @@ class CloudDatabaseService {
               people: data.people,
             });
 
-            if (contentKey !== this.lastContentKey) {
+            if (force || contentKey !== this.lastContentKey) {
               this.lastContentKey = contentKey;
-              this.lastUpdatedAt = cloudTimestamp;
+              this.lastUpdatedAt = Math.max(cloudTimestamp, this.lastUpdatedAt);
               localStorage.setItem(LOCAL_FAMILY_KEY, JSON.stringify(data));
               this.notifyListeners(data);
               return data;

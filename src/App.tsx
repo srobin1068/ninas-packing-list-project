@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef } from 'react';
+import { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import confetti from 'canvas-confetti';
 import type { ItemOwner, LuggageType, PackingItem, UserSettings, Person, SavedTrip, PackedFilterType } from './types/packing';
 import { STARTER_ITEMS } from './data/starterItems';
@@ -146,53 +146,82 @@ export function App() {
   // Real-time Sync state & refs
   const [isSyncActive, setIsSyncActive] = useState(false);
   const [syncCode, setSyncCode] = useState<string | null>(null);
+  const [isSyncing, setIsSyncing] = useState(false);
   const isRemoteUpdate = useRef(false);
+  const isInitialMount = useRef(true);
 
-  // Automatic Cloud Database sync (preserves all trips across devices automatically)
-  useEffect(() => {
-    const applyState = (state: any) => {
-      isRemoteUpdate.current = true;
-      if (state.items) {
-        setItems((prev) => {
-          const starterMap = new Map(STARTER_ITEMS.map((item) => [item.id, item]));
-          const restored = state.items.map((item: PackingItem) => {
-            const starter = starterMap.get(item.id);
-            if ((!item.luggage || item.luggage === 'unassigned') && starter && starter.luggage !== 'unassigned') {
-              return { ...item, luggage: starter.luggage };
-            }
-            return item;
-          });
-          if (JSON.stringify(prev) === JSON.stringify(restored)) return prev;
-          return restored;
+  // Apply synchronized state from Cloud DB
+  const applyState = useCallback((state: any) => {
+    isRemoteUpdate.current = true;
+    if (state.items && Array.isArray(state.items)) {
+      setItems((prev) => {
+        const starterMap = new Map(STARTER_ITEMS.map((item) => [item.id, item]));
+        const restored = state.items.map((item: PackingItem) => {
+          const starter = starterMap.get(item.id);
+          if ((!item.luggage || item.luggage === 'unassigned') && starter && starter.luggage !== 'unassigned') {
+            return { ...item, luggage: starter.luggage };
+          }
+          return item;
         });
-      }
-      if (state.tripTitle) {
-        setSettings((prev) => {
-          if (prev.tripTitle === state.tripTitle) return prev;
-          return { ...prev, tripTitle: state.tripTitle };
-        });
-      }
-      if (state.savedTrips && state.savedTrips.length > 0) {
-        setSavedTrips((prev) => {
-          const merged = sanitizeTrips(state.savedTrips);
-          if (JSON.stringify(prev) === JSON.stringify(merged)) return prev;
-          return merged;
-        });
-      }
-    };
+        if (JSON.stringify(prev) === JSON.stringify(restored)) return prev;
+        return restored;
+      });
+    }
+    if (state.tripTitle) {
+      setSettings((prev) => {
+        if (prev.tripTitle === state.tripTitle) return prev;
+        return { ...prev, tripTitle: state.tripTitle };
+      });
+    }
+    if (state.savedTrips && state.savedTrips.length > 0) {
+      setSavedTrips((prev) => {
+        const merged = sanitizeTrips(state.savedTrips);
+        if (JSON.stringify(prev) === JSON.stringify(merged)) return prev;
+        return merged;
+      });
+    }
+    if (state.people && Array.isArray(state.people) && state.people.length > 0) {
+      setSettings((prev) => {
+        if (JSON.stringify(prev.people) === JSON.stringify(state.people)) return prev;
+        return { ...prev, people: state.people };
+      });
+    }
+  }, []);
 
-    const handleSync = async () => {
-      const cloudState = await cloudDb.pullCloudState();
+  // Manual sync trigger
+  const handleManualSync = useCallback(async () => {
+    setIsSyncing(true);
+    try {
+      const cloudState = await cloudDb.pullCloudState(true);
       if (cloudState) {
         applyState(cloudState);
       }
+    } catch (e) {
+      console.error('Manual sync failed:', e);
+    } finally {
+      setIsSyncing(false);
+    }
+  }, [applyState]);
+
+  // Automatic Cloud Database sync (preserves all trips across devices automatically)
+  useEffect(() => {
+    const handleSync = async (force: boolean = false) => {
+      try {
+        const cloudState = await cloudDb.pullCloudState(force);
+        if (cloudState) {
+          applyState(cloudState);
+        }
+      } catch (e) {
+        console.error('Cloud pull failed:', e);
+      }
     };
 
-    handleSync();
+    // Immediate pull on mount with force=true to get the latest remote state
+    handleSync(true);
 
     const handleFocusOrVisible = () => {
       if (document.visibilityState === 'visible') {
-        handleSync();
+        handleSync(true);
       }
     };
 
@@ -210,10 +239,14 @@ export function App() {
       window.removeEventListener('online', handleFocusOrVisible);
       unsubCloud();
     };
-  }, []);
+  }, [applyState]);
 
-  // Push updates to Cloud DB whenever items, title, or savedTrips change
+  // Push updates to Cloud DB whenever items, title, or savedTrips change (skip initial mount to prevent overwriting cloud)
   useEffect(() => {
+    if (isInitialMount.current) {
+      isInitialMount.current = false;
+      return;
+    }
     if (isRemoteUpdate.current) {
       isRemoteUpdate.current = false;
       return;
@@ -692,6 +725,8 @@ export function App() {
           onOpenBagBreakdown={() => setIsBagBreakdownOpen(true)}
           onResetTrip={handleResetTrip}
           onRenameTripTitle={handleRenameTripTitle}
+          onManualSync={handleManualSync}
+          isSyncing={isSyncing}
           isSyncActive={isSyncActive}
           syncCode={syncCode}
         />

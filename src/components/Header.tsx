@@ -13,6 +13,7 @@ import {
   Printer,
   Wifi,
   WifiOff,
+  RefreshCw,
 } from 'lucide-react';
 import type { UserSettings } from '../types/packing';
 
@@ -27,6 +28,8 @@ interface HeaderProps {
   onOpenBagBreakdown: () => void;
   onResetTrip: () => void;
   onRenameTripTitle: (newTitle: string) => void;
+  onManualSync?: () => void;
+  isSyncing?: boolean;
   isSyncActive?: boolean;
   syncCode?: string | null;
 }
@@ -42,6 +45,8 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenBagBreakdown,
   onResetTrip,
   onRenameTripTitle,
+  onManualSync,
+  isSyncing,
   isSyncActive,
   syncCode,
 }) => {
@@ -89,17 +94,41 @@ export const Header: React.FC<HeaderProps> = ({
               <Palmtree className="w-4 h-4" />
             </div>
             <span className="text-xs font-bold text-slate-800 tracking-tight">PackMate</span>
-            <span
-              className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full text-[10px] font-bold ${
-                isOnline
-                  ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
-                  : 'bg-amber-50 text-amber-800 border border-amber-200'
-              }`}
-              title={isOnline ? 'Online & Synced' : 'Offline Mode (Saved Locally)'}
-            >
-              {isOnline ? <Wifi className="w-2.5 h-2.5 text-emerald-600" /> : <WifiOff className="w-2.5 h-2.5 text-amber-600" />}
-              <span>{isOnline ? 'Synced' : 'Offline'}</span>
-            </span>
+            {onManualSync ? (
+              <button
+                onClick={onManualSync}
+                disabled={isSyncing}
+                className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold transition active:scale-95 cursor-pointer ${
+                  isSyncing
+                    ? 'bg-blue-50 text-blue-700 border border-blue-200'
+                    : isOnline
+                    ? 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100 border border-emerald-200'
+                    : 'bg-amber-50 text-amber-800 border border-amber-200'
+                }`}
+                title={isSyncing ? 'Syncing with cloud...' : isOnline ? 'Synced to Cloud (Tap to Refresh)' : 'Offline Mode (Saved Locally)'}
+              >
+                {isSyncing ? (
+                  <RefreshCw className="w-2.5 h-2.5 text-blue-600 animate-spin" />
+                ) : isOnline ? (
+                  <Wifi className="w-2.5 h-2.5 text-emerald-600" />
+                ) : (
+                  <WifiOff className="w-2.5 h-2.5 text-amber-600" />
+                )}
+                <span>{isSyncing ? 'Syncing...' : isOnline ? 'Synced' : 'Offline'}</span>
+              </button>
+            ) : (
+              <span
+                className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full text-[10px] font-bold ${
+                  isOnline
+                    ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
+                    : 'bg-amber-50 text-amber-800 border border-amber-200'
+                }`}
+                title={isOnline ? 'Online & Synced' : 'Offline Mode (Saved Locally)'}
+              >
+                {isOnline ? <Wifi className="w-2.5 h-2.5 text-emerald-600" /> : <WifiOff className="w-2.5 h-2.5 text-amber-600" />}
+                <span>{isOnline ? 'Synced' : 'Offline'}</span>
+              </span>
+            )}
           </div>
 
           {/* Top Action Toolbar */}
