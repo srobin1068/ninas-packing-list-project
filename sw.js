@@ -1,8 +1,9 @@
-const CACHE_NAME = 'packmate-v3';
+const CACHE_NAME = 'packmate-v4';
 const ASSETS = [
   './',
   './index.html',
-  './manifest.json'
+  './manifest.json',
+  './apple-touch-icon.png'
 ];
 
 self.addEventListener('install', (event) => {
@@ -28,8 +29,13 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Network first strategy with offline cache fallback
+  // Never intercept or cache API/cloud sync requests
   if (event.request.method !== 'GET') return;
+  if (event.request.url.includes('api.github.com') || event.request.url.includes('/api/')) {
+    return;
+  }
+
+  // Network first strategy with offline cache fallback
   event.respondWith(
     fetch(event.request)
       .then((response) => {
