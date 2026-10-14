@@ -666,6 +666,7 @@ export function App() {
 
         {/* Bag & Filter Bar */}
         <LuggageFilter
+          ownerName={activeOwnerDisplayName}
           selectedBags={selectedBags}
           onToggleBagFilter={handleToggleBagFilter}
           showMorningOfOnly={showMorningOfOnly}
@@ -680,6 +681,7 @@ export function App() {
           naCount={naCount}
           searchQuery={searchQuery}
           onSearchQueryChange={setSearchQuery}
+          displayedCount={displayedItems.length}
           groupByCategory={groupByCategory}
           onToggleGroupByCategory={() => setGroupByCategory(!groupByCategory)}
         />
@@ -747,16 +749,52 @@ export function App() {
             <div className="w-12 h-12 rounded-2xl bg-slate-100 text-slate-400 mx-auto flex items-center justify-center mb-3">
               <Inbox className="w-6 h-6" />
             </div>
-            <h4 className="text-sm font-bold text-slate-700">No items found</h4>
-            <p className="text-xs text-slate-500 mt-1 max-w-xs mx-auto">
-              {showMorningOfOnly
-                ? 'No morning-of items in this tab. Click the ⏰ icon on any item to mark it as last-minute!'
-                : packedFilter === 'unpacked' && currentTabItems.length > 0
-                ? 'All items in this tab are packed! 🎉 Select "All" or "Packed" above to view packed items.'
-                : packedFilter === 'packed' && currentTabItems.length > 0
-                ? 'No items packed yet in this tab. Check off items as you pack to see them here!'
-                : `No items in ${activeOwnerDisplayName}'s list yet. Type above to add your first item!`}
-            </p>
+            {searchQuery.trim() ? (
+              <div>
+                <h4 className="text-sm font-bold text-slate-800">
+                  No items matching "{searchQuery.trim()}"
+                </h4>
+                <p className="text-xs text-slate-500 mt-1 max-w-sm mx-auto">
+                  We couldn't find any items matching your search in {activeOwnerDisplayName}'s packing list.
+                </p>
+                <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
+                  <button
+                    onClick={() => {
+                      handleAddItem({
+                        text: searchQuery.trim(),
+                        packed: false,
+                        owner: activeTab,
+                        luggage: 'carry_on',
+                        isLastMinute: false,
+                      });
+                      setSearchQuery('');
+                    }}
+                    className="px-3.5 py-1.5 bg-teal-600 hover:bg-teal-700 text-white rounded-xl text-xs font-semibold shadow-xs transition"
+                  >
+                    Add "{searchQuery.trim()}" to {activeOwnerDisplayName}'s list
+                  </button>
+                  <button
+                    onClick={() => setSearchQuery('')}
+                    className="px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold transition"
+                  >
+                    Clear search
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <h4 className="text-sm font-bold text-slate-700">No items found</h4>
+                <p className="text-xs text-slate-500 mt-1 max-w-xs mx-auto">
+                  {showMorningOfOnly
+                    ? 'No morning-of items in this tab. Click the ⏰ icon on any item to mark it as last-minute!'
+                    : packedFilter === 'unpacked' && currentTabItems.length > 0
+                    ? 'All items in this tab are packed! 🎉 Select "All" or "Packed" above to view packed items.'
+                    : packedFilter === 'packed' && currentTabItems.length > 0
+                    ? 'No items packed yet in this tab. Check off items as you pack to see them here!'
+                    : `No items in ${activeOwnerDisplayName}'s list yet. Type above to add your first item!`}
+                </p>
+              </div>
+            )}
           </div>
         )}
 
