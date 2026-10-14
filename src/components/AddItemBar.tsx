@@ -45,7 +45,7 @@ export const AddItemBar: React.FC<AddItemBarProps> = ({
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-white border-2 border-teal-500/80 rounded-2xl p-2 shadow-lg shadow-teal-500/10 flex items-center gap-2 transition-all focus-within:border-teal-600 focus-within:ring-4 focus-within:ring-teal-100"
+      className="bg-white border border-teal-500/80 rounded-xl p-1 sm:p-1.5 shadow-xs flex items-center gap-1.5 sm:gap-2 transition-all focus-within:border-teal-600 focus-within:ring-3 focus-within:ring-teal-100"
     >
       <input
         ref={inputRef}
@@ -53,7 +53,7 @@ export const AddItemBar: React.FC<AddItemBarProps> = ({
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder={`Add item to ${ownerName}'s list...`}
-        className="flex-1 bg-transparent px-2.5 py-2 sm:py-1.5 text-sm text-slate-800 placeholder-slate-400 focus:outline-none font-medium min-h-[40px]"
+        className="flex-1 bg-transparent px-2.5 py-1 text-sm text-slate-800 placeholder-slate-400 focus:outline-none font-medium min-h-[36px]"
       />
 
       <div className="flex items-center gap-1.5 shrink-0">

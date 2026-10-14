@@ -683,17 +683,21 @@ export function App() {
           groupByCategory={groupByCategory}
           onToggleGroupByCategory={() => setGroupByCategory(!groupByCategory)}
         />
+
+        {/* Quick Add Bar (Stationary when scrolling through the list) */}
+        <div className="bg-slate-50/95 backdrop-blur-md border-b border-slate-200/80 px-4 py-2">
+          <div className="max-w-2xl mx-auto">
+            <AddItemBar
+              activeOwner={activeTab}
+              ownerName={activeOwnerDisplayName}
+              onAddItem={handleAddItem}
+            />
+          </div>
+        </div>
       </div>
 
       {/* Main List Area */}
-      <main className="max-w-2xl mx-auto px-4 w-full flex-1 mt-1 space-y-4">
-        {/* Quick Add Bar */}
-        <AddItemBar
-          activeOwner={activeTab}
-          ownerName={activeOwnerDisplayName}
-          onAddItem={handleAddItem}
-        />
-
+      <main className="max-w-2xl mx-auto px-4 w-full flex-1 mt-3 space-y-4">
         {/* Item List */}
         {displayedItems.length > 0 ? (
           groupByCategory && groupedDisplayedItems ? (
